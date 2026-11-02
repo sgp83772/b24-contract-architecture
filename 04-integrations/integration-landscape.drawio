@@ -1,9 +1,74 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="mEPqLNYq_wFBJ7l4MEnP">
-    <mxGraphModel>
+    <mxGraphModel dx="2374" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-10" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ByrqcTagvgd6J_AAAdRC-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-11" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="1С → Bitrix24: Договор, Счёт, Платёж (суммы, статусы), real-time по событию" vertex="1">
+          <mxGeometry relative="1" x="0.455" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1C&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-5" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ByrqcTagvgd6J_AAAdRC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-6" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;span style=&quot;font-size: 12px; white-space: normal;&quot;&gt;Bitrix24 → 1С: Контрагент (ИНН, КПП, название), раз в час, REST/JSON&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.05" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-14" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ByrqcTagvgd6J_AAAdRC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-15" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Bitrix24 → RabbitMQ: событие payment.created, AMQP" vertex="1">
+          <mxGeometry relative="1" x="0.0101" y="-4" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-19" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ByrqcTagvgd6J_AAAdRC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-20" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Bitrix24 → S3: файлы версий, HTTPS PUT" vertex="1">
+          <mxGeometry relative="1" x="0.725" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Bitrix24 (центр)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="325" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-12" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ByrqcTagvgd6J_AAAdRC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-13" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Mango → Bitrix24: Звонок (дата, длительность, запись), webhook" vertex="1">
+          <mxGeometry relative="1" x="0.0029" y="-1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mango" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-16" edge="1" parent="1" source="ByrqcTagvgd6J_AAAdRC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ByrqcTagvgd6J_AAAdRC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-17" connectable="0" parent="ByrqcTagvgd6J_AAAdRC-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="RabbitMQ → 1С: payment.created, consumer, AMQP" vertex="1">
+          <mxGeometry relative="1" x="-0.113" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RabbitMQ" vertex="1">
+          <mxGeometry height="60" width="120" x="-250" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="ByrqcTagvgd6J_AAAdRC-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S3" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="620" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
