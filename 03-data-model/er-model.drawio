@@ -1,9 +1,70 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="gtqnAX17GvXSFzthUE2m">
-    <mxGraphModel dx="1547" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3069" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bsRgXpeztjoa4quFXnli-20" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-29" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Контрагент (Компания CRM): id, name, inn, kpp, status, responsible_id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="50" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-22" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="bsRgXpeztjoa4quFXnli-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-25" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-26" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bsRgXpeztjoa4quFXnli-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-27" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-11" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Договор (Смарт-процесс): id, number, date, amount, status, counterparty_id, type, start_date, end_date, responsible_id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="150" x="339" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-12" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Спецификация (Смарт-процесс): id, contract_id, position, qty, price, sum&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="480" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-23" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-24" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-13" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Счёт (Смарт-процесс): id, number, date, amount, status, contract_id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="970" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-14" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Акт/УПД (Смарт-процесс): id, number, date, amount, invoice_id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="1280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-15" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Платёж (Смарт-процесс): id, date, amount, purpose, invoice_id, status&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="980" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-16" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Претензия (Смарт-процесс): id, number, date, text, contract_id, status&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="270" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-17" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Задача согласования (Задача Bitrix24): id, type, deadline, assignee_id, contract_id, result&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-18" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Версия документа (HL-блок): id, contract_id, version, file_url, author_id, created_at&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-19" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#424345&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Звонок (Телефония, стандартная): id, date, duration, recording_url, counterparty_id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="-80" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="bsRgXpeztjoa4quFXnli-21" edge="1" parent="1" source="bsRgXpeztjoa4quFXnli-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="bsRgXpeztjoa4quFXnli-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
